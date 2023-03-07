@@ -1,17 +1,15 @@
-import './App.css';
-import Frase from './components/frase';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import List from './components/List';
+import './App.css'
+import Condicional from './components/Condicional';
+
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Testando eventos</h1>
- 
+      <h1>Renderizaçao Condicional</h1>
+    <Condicional/>
     </div>
-  );
+  )
 }
 
 export default App;
